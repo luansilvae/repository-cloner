@@ -1,0 +1,23 @@
+{
+  "name": "repository-cloner",
+  "version": "1.0.0",
+  "description": "Programa que lista e clona repositórios do github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": "git+https://github.com/luansilvae/repository-cloner.git",
+  "author": "Luan Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luansilvae/repository-cloner/issues"
+  },
+  "homepage": "https://github.com/luansilvae/repository-cloner#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.0",
+    "nodegit": "^0.27.0",
+    "readline-sync": "^1.4.10"
+  }
+}
